@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Survey</title>
+</head>
+<body>
+	<h1>Welcome! this form is a survey that i want you to fill in!</h1>
+	<form>
+	<table>
+		<tr>
+			<td>
+			<p><b>Please enter your name:</b></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="Name" placeholder="name..." size="35" maxlength="20" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="about"><b>Tell us about yourself:</b></label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<textarea id="about" name="" rows=4 cols="30" style="background-color:lightgreen"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><i>Do you practice any sports?</i></p>
+			</td>
+			<td>
+				<input type="radio" name="yes_no">Yes
+				<input type="radio" name="yes_no">No
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><i><b>How do you prefer to read about things?</b></i></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="checkbox" id="way1" name="way1">
+				<label for="way1">Books</label>
+				<input type="checkbox" id="way1" name="way2">
+				<label for="way2">Newspaper</label>
+				<input type="checkbox" id="way1" name="way3">
+				<label for="way3">Internet</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>What TV genre do you prefer to watch?</p>
+			</td>
+			<td>
+				<select>
+					<option disabled selected hidden>...</option>
+					<option>Action</option>
+					<option>Romance</option>
+					<option>Comedy</option>
+					<option>Drama</option>
+					<option>Horror</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="Submit" value="Submit" name="">
+				<p style=color:red>*Once you submit, the form will be sent and cannot be edited!</p>
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
